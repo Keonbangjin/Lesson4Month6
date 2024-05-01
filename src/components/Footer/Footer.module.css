@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    width: 100%;
+    padding: 40px;
+    background-color: #FDF6E9;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .sections {
+    display: flex;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-right: 20px;
+  }
+  
+  .sectionTitle {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .sectionItem {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  
+  .logo {
+    height: 40px;
+  }
+  
